@@ -10,7 +10,7 @@ import { SharedModule } from './shared/shared.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,GifsModule,SharedModule
+    BrowserModule,GifsModule,SharedModule,GifsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
